@@ -1,0 +1,161 @@
+여기가 어디야>ask_ref
+너 이름이 뭐야>ask_ref
+대통령이 누구야>ask_ref
+여기서 행당동까지 가는 길 알려줘>ask_ref
+전자 회로 작동 원리를 알려줘봐>ask_ref
+미국에서 가장 싼 노트북이 얼마야>ask_ref
+애플이 몇년도에 설립 되었지>ask_ref
+나는 누굴까>ask_ref
+너는 인생이 뭐라고 생각해>ask_ref
+수학이 뭐야>ask_ref
+세계에서 가장 큰 박물관이 어디야>ask_ref
+여기서 가까운 한식집이 어디야>ask_ref
+오늘 날씨 어때>ask_ref
+내일 날씨는>ask_ref
+내일 모레 의정부 날씨 어때>ask_ref
+물리 실험 레포트 언제까지 써야해>ask_ref
+개발자가 누구야>ask_ref
+부산에서 가장 유명한 곳이 어디지>ask_ref
+서울에서 가장 맛있는 국수 집 알려줘>ask_ref
+돌고래는 몇분동안 숨을 참을 수 있어>ask_ref
+인생이 뭐지>ask_ref
+기타 치는 방법 알려줘>ask_ref
+행당동 행당 푸르지오 아파트에서 금호동 금호 아파트 102동 1005호로 가는 방법 알려줘>ask_ref
+노벨상이 언제 만들어졌냐>ask_ref
+테슬라 배터리 얼마나 오래가>ask_ref
+너 몇살이야>ask_ref
+몇살이야>ask_ref
+뭐라고>ask_ref
+뭐라고 말했어>ask_ref
+엄마 전화번호가 뭐지>ask_ref
+윤 석준 연락처가 뭐야>ask_ref
+강남역에 가는 길을 가르쳐줘>ask_ref
+대전이 어디야>ask_ref
+너 사람이냐>ask_ref
+오늘 비 와>ask_ref
+오늘 비 오냐>ask_ref
+기타칠 수 있냐>ask_ref
+니 인공지능이지>ask_ref
+너는 라면 먹을 수 있냐>ask_ref
+릴리즈 동아리 좋아>ask_ref
+전자 회로 만들 줄 알아>ask_ref
+너 여자친구 있냐>ask_ref
+너 핸드폰 안에 살고 있지>ask_ref
+너 3살이지>ask_ref
+너 사람 아니지>ask_ref
+인공지능 맞아>ask_ref
+인공지능 맞아?>ask_ref
+컴퓨터에 물리가 쓰여?>ask_ref
+프로그래머한테는 수학이 필수적이냐>ask_ref
+너 프로그래밍 할 줄 알아>ask_ref
+너 바보지>ask_ref
+너 멍청하지>ask_ref
+
+내 이름은 김창환이야>inform
+기타리스트는 기타를 잘 쳐>inform
+파키스탄은 살 만한 곳이 못되는 거 같아>inform
+드럼치고 싶다>inform
+라면먹고 싶어>inform
+컴퓨터 프로그래밍 하고 싶은데>inform
+전압 강하는 전류가 흐르다가 전압이 내려가는 것을 말한다>inform
+타임 머신은 인류가 만들수는 없을 거야>inform
+영석이는 서강대학교 학생이지>inform
+베이스 치는 사람은 참을성이 많아>inform
+나는 인생이 전기같다고 생각해>inform
+나 결혼 했다>inform
+윤영이는 프로그래밍을 참 잘해>inform
+내 여자친구 이름은 무지야>inform
+우리 엄마 이름은 양양명이야>inform
+압축 알고리즘은 정말 아름다워>inform
+기전력 차이가 있기 때문에 전류가 흐를 수 있다>inform
+회로망은 정말 특이해>inform
+세상에서 제일 싼 노트북은 델에서 만든 xps시리즈야>inform
+처음 속도 빼기 나중 속도는 벨로시티야>inform
+1+1은 2야>inform
+일 더하기 삼은 사야>inform
+사이다 먹고 싶다>inform
+삼 곱하기 사는 십이야>inform
+9 나누기 3은 3이지>inform
+74 빼기 4는 70이다>inform
+장진영은 사람이야>inform
+
+너 인생이 뭔지 아냐>req_conf
+순범이형 알아>req_conf
+이순신형 아냐>req_conf
+너 나 알아>req_conf
+행당동이 어디있는지 알아>req_conf
+천성 교회가 어디 위치해 있는지 알아>req_conf
+여기서 가장 가까운 성당이 어디 있는지 알고 있어>req_conf
+너 기타 칠줄 아냐>req_conf
+너는 내가 사람인걸 알고 있어>req_conf
+너는 내가 사람인걸 알고 있어?>req_conf
+방금 나라고 말했지>req_conf
+
+핸드폰 꺼>req_act
+엄마한테 지금 문자메시지 보내줘>req_act
+컴퓨터 꺼주라>req_act
+앱스토어에서 문명 게임 다운 받아줘>req_act
+기타와 관련된 어플리케이션 다운 받아>req_act
+카카오톡으로 민경이한테 안녕이라고 메시지 보내>req_act
+아버지한테 전화해>req_act
+기타 치는 법 검색해줘>req_act
+최신 노트북 검색해봐>req_act
+전압 강하에 대해 위키피디아에서 검색해봐>req_act
+엄마한테 전화해달라고 문자 보내>req_act
+행당동으로 가자>req_act
+불 꺼줘>req_act
+사진 어플리케이션 실행해줘>req_act
+카메라 켜줘>req_act
+여기서 가장 맛있는 한식집 찾아줘>req_act
+지금 집 가고 있다고 임민혁한테 문자해>req_act
+고경남 선생님께 전화>req_act
+최종만한테 전화 걸어주세요>req_act
+블루투스 켜라>req_act
+119에 전화 걸어>req_act
+허브 실행해>req_act
+페이스북 실행해줘>req_act
+Twitter 실행해>req_act
+니드포 스피드 다운로드>req_act
+주현 핸드폰으로 나 좀 늦을 것 같애라는 메시지 보내>req_act
+예산 감사 일정을 취소해>req_act
+지원이와의 약속 시간을 확인해봐>req_act
+집에 가는 길을 보여줘>req_act
+미용실 찾아줘>req_act
+부산에서 횟집 찾아봐>req_act
+강남 스타일 재생해>req_act
+송창식 음악을 랜덤으로 들려줘>req_act
+빅뱅 음악 틀어줘>req_act
+음료수 가져와>req_act
+식사를 대령하여라>req_act
+라면 끓여줘>req_act
+라면 좀 끓여와>req_act
+기타 어플 다운 받아줘>req_act
+튜너 어플 다운>req_act
+장진영 어플 다운해>req_act
+뉴스 다운해줘>req_act
+블로터 닷넷 열어줘>req_act
+
+
+응 맞아>confirm
+응 그래>confirm
+응>confirm
+그래>confirm
+어>confirm
+해줘>confirm
+맞아>confirm
+아니>confirm
+싫어>confirm
+하지마>confirm
+안돼>confirm
+
+안녕>greeting
+안녕하세요>greeting
+내 이름은 김창환이야 안녕>greeting
+잘 지내니>greeting
+잘 지냈어>greeting
+요즘 잘 지내>greeting
+
+오늘 저녁 7시에 깨워줘>promise
+내일 오후 9시에 엄마한테 집이라고 문자 보내>promise
+내일 아침 8시에 알람 해줘>promise
+5분 있다가 알람 울리게 해줘>promise
