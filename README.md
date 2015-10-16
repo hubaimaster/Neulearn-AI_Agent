@@ -24,6 +24,9 @@ Neulearn.jar 라이브러리의 기본적인 사용법을 Main.java 클래스에
 Neulearn.jar 라이브러리는 문장을 입력받아 특정 동작과 매칭시켜주는 작업을 진행합니다.
 
 매칭 기준은 Root 폴더의 아래 있는 senToFuncCorpus.txt(말뭉치) 를 학습하여 얻을 수 있습니다.
+(말뭉치 형식: [문장]>[연결시킬 클래스 이름] 
+ex: 아버지께 전화해>call
+)
 
 특정 동작들은 개발자가 Neulearn.Func.Func 를 커스텀 클래스에 상속(extend)하여 구현할 수 있습니다.
 ( run(String... args) 메소드를 @Override 하여 원하는 작업을 작성해주시면 됩니다 )
