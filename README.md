@@ -50,4 +50,5 @@ Neulearn.util.preProccer.PreProcController 클래스를 상속하여 커스텀 �
 
 
 (* GlobalConst.ROOT_PATH의 값을 /datas 폴더의 경로로 설정하셔야 합니다. )
+(* 말뭉치를(Corpus) 다른 언어로 바꾸실 경우 해당 언어로 Neulearn을 사용하실 수 있습니다, 다만 전처리기 또한 그 언어에 맞게 커스터마이징 하셔야 합니다.)
 
