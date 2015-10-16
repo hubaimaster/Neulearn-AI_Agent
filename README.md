@@ -5,8 +5,8 @@
 *해당 프로젝트는 Neulearn.jar 라이브러리(Core)를 포함하고 있고,
 Word2Vec - DeepLearning4Java 의존성을 pom.xml 파일에 포함하고 있으며,
 전처리기에 쓰이는 형태소 분석 라이브러리 - Komoran 라이브러리를 포함하고 있습니다.
-
-
+ 
+ 
 
 - 아래는 Neulearn 대화형 에이전트 프로젝트의 프로세스를 간단히 나타낸 것입니다.
 
@@ -46,6 +46,8 @@ Neulearn.util.preProccer.PreProcController 클래스를 상속하여 커스텀 �
 (public String getPreProcString(String raws) 메소드를 @Override 해주셔서 전처리 프로세스를 작성하시면 됩니다)
 
 
+(* GlobalConst.ROOT_PATH의 값을 /datas 폴더의 경로로 설정하셔야 합니다. )
+
 
 - 예시 코드:
 
@@ -57,7 +59,7 @@ public static void main( String[] args ) throws Exception
 {
 
 //루트 경로 정의 
-GlobalConst.ROOT_PATH = "/Users/kimchanghwan/Desktop/datas/";
+GlobalConst.ROOT_PATH = "./datas/";
 
 //말뭉치, 입력문장 전처리에 사용될 전처리기 (PreProcController 클래스를 상속하여 커스텀 가능)
 GlobalConst.preProcController = new KR_PreProc();

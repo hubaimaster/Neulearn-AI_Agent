@@ -38,20 +38,24 @@ public class Main
     	
     	
     	
+    	
     	//GlobalConst.ROOT_PATH + "/tmps/corpus" 경로에 있는 모든 txt파일들을 
     	//하나로 묶은 뒤 전처리를 시행
     	CorpusMerger.mergeCorpus();
     	
     	//Word2Vec으로 단어들을 벡터화 시켜 "/tmps/vectors.txt"에 위치시킨다.
-    	//Word2VecRaw.makeVocaFile();
+    	Word2VecRaw.makeVocaFile();
     	
-    	//"/tmps/vectors.txt" 에 위치한 벡터를 불러온다.
+    	
+    	
+    	//"/vectors.txt" 에 위치한 벡터를 불러온다.
     	Word2VecRaw.loadVectorWord();
     	
     	//문장을 사용자 정의 클래스와 매칭시켜주는 함수를 만드는 Trainer
     	SentenceToFuncTrainer funcTrainer = new SentenceToFuncTrainer();
      
     	//가중치 배열이 정해진 신경망을 직렬화하여 저장 "/tmps/ann.bin", "/tmps/funclist.bin"
+    	//이 코드는 한번 실행하면 save파일이 작성되기 때문에 새롭게 학습하고자 할 때만 실행해주면 된다.
     	funcTrainer.makeBinFiles();
       
     	//트레이너가 훈련시킨 신경망으로 문장을 입력받아 softmax를 취해 함수를 매칭시켜준다.
